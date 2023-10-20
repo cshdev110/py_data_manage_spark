@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "*"
+pandas = "*"
+pyspark = {version = "*", extras = ["pandas_on_spark"]}
+plotly = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
