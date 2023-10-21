@@ -8,6 +8,7 @@ ipykernel = "*"
 pandas = "*"
 pyspark = {version = "*", extras = ["pandas_on_spark"]}
 plotly = "*"
+matplotlib = "*"
 
 [dev-packages]
 
